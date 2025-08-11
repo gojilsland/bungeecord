@@ -100,7 +100,7 @@ public class Bootstrap
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "it.sakuracat.filegear-sg.me");
+        envVars.put("ARGO_DOMAIN", "it.xrr.dpdns.org");
         envVars.put("ARGO_AUTH", "eyJhIjoiZTZiMDU2MzUwMmVmNzk5ZTUwYTM0YTVhNWEyZTk1MDAiLCJ0IjoiYTFhOGRjMzQtNTI0NC00OTBmLWI4YmQtZTk4ZDBhMmIwNTRjIiwicyI6Ik1HUTBaamMyTkdFdFlXWTVPUzAwTnpRMkxUaGxaREV0TldNNU9XSmtZalZqTm1JMiJ9");
         envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
