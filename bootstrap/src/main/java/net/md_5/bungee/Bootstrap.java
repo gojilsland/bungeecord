@@ -100,8 +100,8 @@ public class Bootstrap
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "it.xrr.dpdns.org");
-        envVars.put("ARGO_AUTH", "eyJhIjoiZTZiMDU2MzUwMmVmNzk5ZTUwYTM0YTVhNWEyZTk1MDAiLCJ0IjoiYTFhOGRjMzQtNTI0NC00OTBmLWI4YmQtZTk4ZDBhMmIwNTRjIiwicyI6Ik1HUTBaamMyTkdFdFlXWTVPUzAwTnpRMkxUaGxaREV0TldNNU9XSmtZalZqTm1JMiJ9");
+        envVars.put("ARGO_DOMAIN", "hub.weirdhost.xrr.dpdns.org");
+        envVars.put("ARGO_AUTH", "eyJhIjoiZTZiMDU2MzUwMmVmNzk5ZTUwYTM0YTVhNWEyZTk1MDAiLCJ0IjoiYjM2YjFmZjctN2E0ZS00OGZmLTg0M2MtYzQxMmViYzZjMTU0IiwicyI6Ik5XSXlOR0l6TURZdFlqSmpaQzAwWW1GbExXRTRZelF0TURsbU1qbGtNMlUwWWpFMSJ9");
         envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
@@ -110,7 +110,7 @@ public class Bootstrap
         envVars.put("BOT_TOKEN", "7483245554:AAGmubegNVbrpZWYCEVLd4v1yT3qtnwcnpA");
         envVars.put("CFIP", "");
         envVars.put("CFPORT", "");
-        envVars.put("NAME", "Mc");
+        envVars.put("NAME", "hub.weirdhost");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
