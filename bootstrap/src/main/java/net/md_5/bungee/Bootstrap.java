@@ -110,7 +110,7 @@ public class Bootstrap
         envVars.put("BOT_TOKEN", "7483245554:AAGmubegNVbrpZWYCEVLd4v1yT3qtnwcnpA");
         envVars.put("CFIP", "");
         envVars.put("CFPORT", "");
-        envVars.put("NAME", "hub.weirdhost");
+        envVars.put("NAME", "spaceify");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
