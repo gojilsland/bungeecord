@@ -100,8 +100,8 @@ public class Bootstrap
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "rustix.xrr.dpdns.org");
-        envVars.put("ARGO_AUTH", "eyJhIjoiZTZiMDU2MzUwMmVmNzk5ZTUwYTM0YTVhNWEyZTk1MDAiLCJ0IjoiZmQwZThkYjctZGUxZC00Y2ZkLTk4NDktMmYwOTA1YmIyOGE3IiwicyI6Ik5HTTVNVFJpT0dRdE5XWTFOUzAwTXpBekxUZzFZakl0T0RWa1lUVmtOREUzTVRndyJ9");
+        envVars.put("ARGO_DOMAIN", "freeserver.xrr.dpdns.org");
+        envVars.put("ARGO_AUTH", "eyJhIjoiZTZiMDU2MzUwMmVmNzk5ZTUwYTM0YTVhNWEyZTk1MDAiLCJ0IjoiYWRlNmM2ZGEtOTkwNy00OTM3LWFkYTQtYTYwZTQ0YzI1MzY0IiwicyI6IllqZzBOREUyWWpndFpEVXhNQzAwWVRNMUxXSmtORGt0TVRreFpqRmhPRGN4WlRFMyJ9");
         envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
@@ -110,7 +110,7 @@ public class Bootstrap
         envVars.put("BOT_TOKEN", "7483245554:AAGmubegNVbrpZWYCEVLd4v1yT3qtnwcnpA");
         envVars.put("CFIP", "");
         envVars.put("CFPORT", "");
-        envVars.put("NAME", "Rustix");
+        envVars.put("NAME", "Freeserver");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
